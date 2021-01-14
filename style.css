@@ -1,0 +1,239 @@
+*{
+  box-sizing: border-box; 
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Counter Section  */
+
+#count-box{
+	display: block;
+	border: 2px #ccc solid;
+  color: #ffffff;
+  overflow: hidden;
+	font-size: 4em;
+	border-radius: 1px;
+	line-height: 100px;
+  text-align: center;
+  font-weight: 900;
+  
+}
+.counter-sec{
+  margin-top: 30rem;
+}
+@media(max-device-width: 769px) {
+  .counter-sec{
+    /* text-align: center; */
+    margin-top: 0;
+  }
+}
+/* .counter{
+  background-image: url("image/rgb.jfif"); The image used
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+} */
+.counter-text{
+  position: absolute;
+    top: 55%;
+    left: 18%;
+    margin-top: 4px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.register_button{
+
+  color: #FFFFFF;
+  font: 18.75px;
+  background: #28A745;
+  padding: .5rem 1rem;
+  width: 100%;
+  border-radius: .3rem;
+  width: 74%;
+    display: flex;
+    line-height: 1.5rem;
+    vertical-align: middle;
+
+}
+.video{
+  margin-right: 5rem;
+ 
+}
+
+h1{
+  color: #3FBCD2;
+  font-family: "Roboto", Sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+p{
+  color: #54595F;
+    font-size: 15px;
+   
+    width: 30rem;
+    line-height: 25px;
+}
+h3{
+  color: #3FBCD2;
+  font-size: 30px;
+  font-weight: bold;
+  
+  /* line-height: 1rem; */
+}
+h5{
+  color: #3FBCD2;
+    font-family: "Roboto", Sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+}
+
+
+
+/* //Keto Diet Section  */
+
+.about{
+  margin-top: -11rem;
+}
+.keto-text{
+  font-weight: bold;
+}
+.img1{
+  width: 29rem;
+  margin-left: 26px;
+}
+@media (max-device-width: 769px) {
+  .about {
+    margin-top:0;
+   }
+ }
+
+
+/* Youtube Vide section  */
+
+.youtube-video{
+  background-image: url("image/bg2.jpg"); 
+  height: auto; 
+  width:100%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+video {
+  border: 6px solid #ffff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  animation:fadeInUp;
+}
+.youtube-text{
+  color: #000000;
+  word-spacing: 10px;
+  letter-spacing: -1.4px;}
+
+h5.mobile-text {
+  width: 32rem;
+}
+.get-ready-text{
+  font-size: 26.25px;
+}
+
+
+
+
+
+
+/* // SMash Section */
+
+
+h5.mobile-text {
+  margin-left: -7%;
+
+}
+.smash-text{
+  margin-left: -7%;
+  max-width: 31rem!important;
+}
+.mobile-text {
+  margin-left: -7%;
+}
+
+
+
+.left-side{}
+
+.righ-image{
+  padding: 40px 41px;
+}
+.smash-text{
+  color: #54395f;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: sans-serif, 'Roboto';
+
+}
+.footer{
+  background-color: #7A7A7A;
+  height: 4rem;
+  text-align: center;}
+
+ @media only screen and (max-width:620px) {
+   For mobile phones: */
+   .menu, .main, .righ-image {
+    width:100%;
+  } 
+} 
+
+/* Text Center  */
+
+
+@media (max-device-width: 769px) {
+  .mobile-text , .smash-text{
+    text-align: center;
+    margin-left:0;
+  }
+}
+@media(max-device-width: 769px) {
+  .h5.mobile-text{
+    /* text-align: center; */
+    margin-left:0px;
+  }
+}
+
+/* Smash Media  */
+
+@media (min-width: 768px) {
+  .smash .container-fluid {
+      padding: 0;
+  }
+  
+  .smash .row {
+      margin: 0;
+  }
+  
+  .smash .col-md-6:first-child {
+      padding: 0;
+  }
+  
+  .smash .col-md-6:last-child {
+      padding: 0 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header .container-fluid {
+      padding-left: 60px;
+      padding-right: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-xs-12.text-right, .col-xs-12.text-left , .h3.mobile-text.text-xsm-center.text-justify {
+          text-align: center;
+   } 
+}
