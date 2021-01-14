@@ -61,10 +61,7 @@ body{
     vertical-align: middle;
 
 }
-.video{
-  margin-right: 5rem;
- 
-}
+
 
 h1{
   color: #3FBCD2;
@@ -76,7 +73,7 @@ p{
   color: #54595F;
     font-size: 15px;
    
-    width: 30rem;
+    width: 100%;
     line-height: 25px;
 }
 h3{
@@ -104,8 +101,9 @@ h5{
   font-weight: bold;
 }
 .img1{
-  width: 29rem;
   margin-left: 26px;
+  width: 100%;
+  height: fit-content;
 }
 @media (max-device-width: 769px) {
   .about {
@@ -132,6 +130,10 @@ video {
   -o-border-radius: 20px;
   animation:fadeInUp;
 }
+.video{
+  margin-right: 0;
+ 
+}
 .youtube-text{
   color: #000000;
   word-spacing: 10px;
@@ -156,9 +158,9 @@ h5.mobile-text {
   margin-left: -7%;
 
 }
-.smash-text{
-  margin-left: -7%;
-  max-width: 31rem!important;
+.smash-text {
+  margin-left: -9%;
+  max-width: 100%;
 }
 .mobile-text {
   margin-left: -7%;
@@ -178,31 +180,11 @@ h5.mobile-text {
   font-family: sans-serif, 'Roboto';
 
 }
-
-/* //Footer  */
-.footer{
-  background-color: #7A7A7A;
-  height: 4rem;
-  text-align: center;}
-
-  @media (max-device-width: 769px) {
-    .footer{
-      width:100%;
-    }
-  }
-
- @media only screen and (max-width:620px) {
-   For mobile phones: */
-   .menu, .main, .righ-image , .footer{
-    width:100%;
-  } 
-} 
-
 /* Text Center  */
 
 
 @media (max-device-width: 769px) {
-  .mobile-text , .smash-text{
+  .mobile-text , .smash-text , .about-h1{
     text-align: center;
     margin-left:0;
   }
@@ -213,6 +195,27 @@ h5.mobile-text {
     margin-left:0px;
   }
 }
+
+/* //Footer  */
+.footer{
+  background-color: #7A7A7A;
+  height: 4rem;
+  text-align: center;}
+
+
+  @media (max-device-width: 769px) {
+    .footer{
+      width:100%;
+    }
+  }
+ @media only screen and (max-width:620px) {
+   For mobile phones: */
+   .menu, .main, .righ-image , .footer{
+    width:100%;
+  } 
+} 
+
+
 
 /* Smash Media  */
 
